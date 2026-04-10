@@ -7,7 +7,9 @@
    * As posições em **cinza** são funcionalidades futuras
    * Ao clicar nestas posições ocorre o direcionamento para a área de download
    
-   <img src="lib/jpg/matrix.jpg" width="800"><br>
+<div style="background:#eee; padding:10px; border-radius:6px;">
+Esta é uma caixa cinza no Markdown.
+</div>
 
    📋 **Versionamento**<br>
    |Versão	|Data	| Descrição |
