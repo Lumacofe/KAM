@@ -9,7 +9,7 @@
    * As posições em **cinza** são funcionalidades futuras.
    * Ao clicar nestas posições ocorre o direcionamento para a área de download.
 
-   <img src="lib/jpg/matrix.jpg" width="600"><br>
+   <img src="lib/jpg/kammatrix.jpg" width="600"><br>
 
    📋 **Versionamento**<br>
    |Versão	|Data	| Descrição |
