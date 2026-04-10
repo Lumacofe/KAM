@@ -1,0 +1,6 @@
+AMÉRICA:Continente nombrado en honor al italiano Américo Vespucio
+ÁFRICA:Continente con la mayor variedad de fauna de gran tamaño
+EUROPA:Continente conocido como el Viejo Mundo
+ASIA:Continente más poblado de la Tierra
+OCEANÍA:Continente donde viven los aborígenes y los canguros
+ANTÁRTIDA:Continente helado ubicado en el Polo Sur

@@ -1,0 +1,6 @@
+AMERICA:Continent named in honor of the Italian Amerigo Vespucci
+AFRICA:Continent with the greatest variety of large fauna
+EUROPE:Continent called the Old World
+ASIA:Most populous continent on Earth
+OCEANIA:Continent where Aborigines and kangaroos live
+ANTARCTICA:Icy continent located at the South Pole

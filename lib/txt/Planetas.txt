@@ -3,9 +3,8 @@ TERRA:Planeta onde habitamos
 SOL:Nome da estrela do sistema planetário em habitamos
 MARTE:Nome do planeta batizado em homenagem ao deus da guerra
 JÚPITER:Maior planeta do sistema solar
-VÊNUS: Planeta batizado em homenagem à deusa romana do amor e da beleza
+VÊNUS:Planeta batizado em homenagem à deusa romana do amor e da beleza
 MERCÚRIO:Planeta batizado em homenagem ao deus romano que era um mensageiro veloz
 URANO:Nome do planeta que foi batizado em homenagem a um deus grego
-PLUTÃO:Nome do ex-planeta que foi batizado em homenagem ao deus romano do submundo
 NETUNO:Nome do planeta que foi batizado em homenagem ao deus romano dos mares
 LUA:Nome do satélite natural da Terra

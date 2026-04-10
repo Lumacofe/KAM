@@ -1,0 +1,8 @@
+SOUTH:Pole where Antarctica is located
+NORTH:Pole where the Arctic is located
+EAST:Cardinal point where the sun rises first
+WEST:Cardinal point where the sun sets latest
+SOUTHEAST:Cardinal point between south and east
+NORTHEAST:Cardinal point between east and north
+NORTHWEST:Cardinal point between north and west
+SOUTHWEST:Cardinal point between west and south

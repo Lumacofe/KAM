@@ -1,0 +1,8 @@
+SUR:Polo donde se encuentra la Antártida
+NORTE:Polo donde se encuentra el Ártico
+ESTE:Punto cardinal donde sale primero el sol
+OESTE:Punto cardinal donde se pone más tarde el sol
+SURESTE:Punto cardinal entre el sur y el este
+NORESTE:Punto cardinal entre el este y el norte
+NOROESTE:Punto cardinal entre el norte y el oeste
+SUROESTE:Punto cardinal entre el oeste y el sur

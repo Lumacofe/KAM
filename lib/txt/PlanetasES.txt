@@ -1,0 +1,11 @@
+SATURNO:Planeta famoso por sus anillos
+TIERRA:Planeta donde vivimos
+SOL:Nombre de la estrella del sistema planetario que habitamos
+MARTE:Nombre del planeta que lleva el nombre del dios de la guerra
+JÚPITER:Planeta más grande del sistema solar
+VENUS:Planeta que lleva el nombre de la diosa romana del amor y la belleza
+MERCURIO:Planeta que lleva el nombre del dios romano mensajero
+URANO:Nombre del planeta que recibió su nombre de un dios griego
+PLUTÓN:Nombre del antiguo planeta que recibió su nombre del dios romano del inframundo
+NEPTUNO:Nombre del planeta que recibió su nombre del dios romano de los mares
+LUNA:Nombre del satélite natural de la Tierra
