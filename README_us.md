@@ -9,7 +9,7 @@
 * The **gray** positions are future features.
 * Clicking these positions redirects to the download area.
 
-<img src="lib/jpg/matrix.jpg" width="600"><br>
+<img src="lib/jpg/kammatrix.jpg" width="600"><br>
 
 📋 **Versioning**<br>
 |Version |Date       |Description |
