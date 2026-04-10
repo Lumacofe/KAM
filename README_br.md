@@ -1,5 +1,5 @@
 ✨ **CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br>
-<img src="lib/jpg/logo.jpg" width="300"><br>
+<img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
 
 Após clicar no botão **Download .ZIP**, o seguinte arquivo estará no diretório de downloads: **Install_KAM_v0.00h.bat**
 Clique 2X no arquivo .bat e será descompactada a seguinte estrutura abaixo:
