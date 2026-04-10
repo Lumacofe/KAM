@@ -65,11 +65,11 @@ Exemplo de arquivo	: **Pontos Cardeais.txt**<br>
 
 📄 Exemplos de arquivos texto para uso no **CrossWord**
 
-| Arqvuivo txt  | Nome                                       |
-|---------------|--------------------------------------------|
-| Exemplo 1️⃣    | [Continentes.txt](lib/txt/Continentes.txt) |
-| Exemplo 2️⃣    | Planetas.txt        |
-| Exemplo 3️⃣    | Pontos Cardeais.txt |
+| Arqvuivo txt  | Nome                                               |
+|---------------|----------------------------------------------------|
+| Exemplo 1️⃣    | [Continentes.txt](lib/txt/Continentes.txt)         |
+| Exemplo 2️⃣    | [Planetas.txt](lib/txt/Planetas.txt)               |
+| Exemplo 3️⃣    | [Pontos Cardeais.txt](lib/txt/Pontos Cardeais.txt) |
 
 ⚙️ **Funcionalidades**<br>
 Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**<br><br> 
