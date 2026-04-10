@@ -1,6 +1,5 @@
-
 <details>
-<summary><b>✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas<br></b></summary>
+<summary><b>**✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br></b></summary>
 
 <img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
 
@@ -75,9 +74,16 @@ Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**
 ▫️Críticas, elogios, sugestões ou relatos de bugs são bem-vindos.<br>
 ▫️Utilize o formulário “Entre em contato” no site mattlab.com.br.<br><br>
 
+</details>
+
 📋 **Versionamento**<br>
 |Versão	|Data	| Descrição |
 |-------|-----|-----------|
-|0.00h	|2026.APR.02	|Implementação inicial, Beta Test|
-
-</details>
+|0.00h	|17/03/2026	|Implementação módulo [C]ross [W]ord|
+|0.00g	|31/05/2025 |Ampliação dos Menus|
+|0.00f	|18/05/2025	|Refino da rotina historic|
+|0.00e	|27/04/2025	|Criação de layout do fornulário|
+|0.00d	|22/02/2025	|Elementos & Flexibilidade II|
+|0.00c	|21/02/2025	|Elementos & Flexibilidade I|
+|0.00b	|31/01/2025	|Estruturação do Projeto|
+|0.00a	|30/01/2025	|Concepção das ideias|
