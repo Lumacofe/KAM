@@ -65,9 +65,9 @@ The CW module is designed to build crossword puzzles for:<br>
 
 | Text File     | Name                                                |
 |---------------|-----------------------------------------------------|
-| Example 1️⃣    | [Continents.txt](lib/txt/Continentes.txt)           |
-| Example 2️⃣    | [Planets.txt](lib/txt/Planetas.txt)                 |
-| Example 3️⃣    | [Cardinal Points.txt](lib/txt/PontosCardeais.txt)   |
+| Example 1️⃣    | [Continents.txt](lib/txt/Continents.txt)           |
+| Example 2️⃣    | [Planets.txt](lib/txt/Planets.txt)                 |
+| Example 3️⃣    | [Cardinal Points.txt](lib/txt/CardinalPoints.txt)  |
 
 ⚙️ **Features**<br>
 Below is the **KAM** menu bar that opens in Excel when loading **CW_0.01.xlsm**<br><br>
