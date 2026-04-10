@@ -43,7 +43,7 @@ Clique 2X no arquivo .bat e será descompactada a seguinte estrutura abaixo:
         * ...
     * **KAM_0.00h.xlsm**
 
-🎯 **Objetivo**<br><br>
+🎯 **Objetivo**<br>
 O módulo CW tem como finalidade construir palavras cruzadas para:<br>
 👉🏻Uso Lúdico<br>
 👉🏻Uso Educacional<br>
