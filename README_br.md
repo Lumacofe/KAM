@@ -5,9 +5,9 @@
    * As posições em **amarelo** são funções
    * As posições em **verde** são módulos de subrotinas
    * As posições em **cinza** são funcionalidades futuras
-   * Ao clicar ocorre o direcionamento para a área de download
+   * Ao clicar nestas posições ocorre o direcionamento para a área de download
    
-   <img src="lib/jpg/Matrix.jpg" width="300"><br>
+   <img src="lib/jpg/Matrix.jpg" width="500"><br>
 
    📋 **Versionamento**<br>
    |Versão	|Data	| Descrição |
