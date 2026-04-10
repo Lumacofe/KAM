@@ -6,6 +6,5 @@ JUPITER:Largest planet in the solar system
 VENUS:Planet named after the Roman goddess of love and beauty
 MERCURY:Planet named after the Roman god who was a swift messenger
 URANUS:Name of the planet that was named after a Greek god
-PLUTO:Name of the former planet that was named after the Roman god of the underworld
 NEPTUNE:Name of the planet that was named after the Roman god of the seas
 MOON:Name of Earth's natural satellite
