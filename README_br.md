@@ -25,7 +25,6 @@
 
 </details>
 
-
 <details>
 <summary><b>✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas<br></b></summary>
 
@@ -96,5 +95,10 @@ Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**
 ▫️Apenas solicita-se manter os créditos de autoria.<br>
 ▫️Críticas, elogios, sugestões ou relatos de bugs são bem-vindos.<br>
 ▫️Utilize o formulário “Entre em contato” no site mattlab.com.br.<br><br>
+
+</details>
+
+<details>
+<summary><b>🤍GA — [G]it [A]uto : Módulo para auxiliar o versionamento github<br></b></summary>
 
 </details>
