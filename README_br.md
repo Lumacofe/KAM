@@ -1,8 +1,7 @@
 
 <details>
-<summary><b>CW</b></summary>
+<summary><b>✨ **CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br></b></summary>
 
-✨ **CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br>
 <img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
 
 Após clicar no botão **Download .ZIP**, o seguinte arquivo estará no diretório de downloads: **Install_KAM_v0.00h.bat**
