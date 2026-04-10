@@ -81,9 +81,9 @@ Below is the **KAM** menu bar that opens in Excel when loading **CW_0.01.xlsm**<
 | **About**       | Displays the KAM version, its size, and a link to the mattlab website. |
 
 **PDF File** 🅰️ (Answer Key)<br>
-<img src="lib/jpg/gabarito.jpg" width="700"><br>
+<img src="lib/jpg/answerkey.jpg" width="700"><br>
 **PDF File** 🅱️ (Crossword)<br>
-<img src="lib/jpg/cruzadinha.jpg" width="700"><br>
+<img src="lib/jpg/crossword.jpg" width="700"><br>
 
 📢 **Notes**<br>
 1️⃣ The algorithm organizes the words from longest to shortest, making CW structure construction easier.<br>
