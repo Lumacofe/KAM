@@ -81,9 +81,9 @@ A continuación, la barra de menús **KAM** que se abre en Excel al cargar **CW_
 | **About**       | Muestra la versión de KAM, su tamaño y un enlace al sitio mattlab. |
 
 **Archivo PDF** 🅰️ (Solucionario)<br>
-<img src="lib/jpg/gabarito.jpg" width="700"><br>
+<img src="lib/jpg/solucionario.jpg" width="700"><br>
 **Archivo PDF** 🅱️ (Crucigrama)<br>
-<img src="lib/jpg/cruzadinha.jpg" width="700"><br>
+<img src="lib/jpg/crucigrama.jpg" width="700"><br>
 
 📢 **Observaciones**<br>
 1️⃣ El algoritmo organiza las palabras de la más larga a la más corta, facilitando la construcción del CW.<br>
