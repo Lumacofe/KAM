@@ -63,16 +63,13 @@ O módulo CW tem como finalidade construir palavras cruzadas para:<br>
 
 Exemplo de arquivo	: **Pontos Cardeais.txt**<br>
 
-📄 **Exemplo de conteúdo do arquivo**
+📄 **Exemplos de arquivos texto para uso no CrossWord**
 
-NORTE:Polo onde se localiza o Ártico<br>
-SUL:Polo onde se localiza a Antártida<br>
-LESTE:Ponto cardeal onde o sol nasce primeiro<br>
-OESTE:Ponto cardeal onde o sol se põe mais tarde<br>
-NORDESTE:Ponto cardeal entre o leste e o norte<br>
-NOROESTE:Ponto cardeal entre o norte e o oeste<br>
-SUDOESTE:Ponto cardeal entre o oeste e o sul<br>
-SUDESTE:Ponto cardeal entre o sul e o leste<br>
+| Arqvuivo txt  | Nome                 |
+|---------------|----------------------|
+| Exemplo 1️⃣    | Continentes.txt     |
+| Exemplo 2️⃣    | Planetas.txt        |
+| Exemplo 3️⃣    | Pontos Cardeais.txt |
 
 ⚙️ **Funcionalidades**<br>
 Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**<br><br> 
