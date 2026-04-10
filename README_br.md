@@ -47,7 +47,7 @@ Clique 2X no arquivo .bat e será descompactada a seguinte estrutura abaixo:
 O módulo CW tem como finalidade construir palavras cruzadas para:<br>
 👉🏻Uso Lúdico<br>
 👉🏻Uso Educacional<br>
-👉🏻Exercícios Terapêuticos para pacientes com perda de memória<br><br>
+👉🏻Exercícios Terapêuticos para pacientes com perda de memória<br>
 
 🧩 **Características do Módulo**
 | Item                              | Valor        |
