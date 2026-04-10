@@ -88,7 +88,7 @@ Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**
 📢 **Observações**<br>
 1️⃣O algoritmo organiza as palavras da maior para a menor, facilitando a construção da estrutura CW.<br>
 2️⃣Listas muito curtas podem gerar erros, pois existe uma regra que impede palavras de ficarem coladas vertical ou horizontalmente.<br>
-3️⃣A numeração das palavras é inserida automaticamente pela macro, seguindo a regra 1️⃣.<br><br>
+3️⃣A numeração das palavras é inserida automaticamente pela macro, seguindo a regra 1️⃣.<br>
 
 💡 **Considerações Finais**<br>
 ▫️O código é Open Source, desenvolvido em VBA para Excel.<br>
