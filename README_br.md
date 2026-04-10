@@ -1,6 +1,6 @@
 
 <details>
-<summary><b>▶ CW</b></summary>
+<summary><b>CW</b></summary>
 
 ✨ **CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br>
 <img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
@@ -81,4 +81,4 @@ Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**
 📋 **Versionamento**<br>
 |Versão	|Data	| Descrição |
 |-------|-----|-----------|
-|0.01	|2026.APR.02	|Implementação inicial, Beta Test|
+|0.00h	|2026.APR.02	|Implementação inicial, Beta Test|
