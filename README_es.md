@@ -1,5 +1,5 @@
 ✨ **CW — [C]ross [W]ord : Módulo para generar crucigramas**<br>
-<img src="lib/jpg/logo.jpg" width="300"><br>
+<img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
 Después de hacer clic en el botón **Download .ZIP**, el siguiente archivo estará en su carpeta de descargas: **Install_KAM_v0.00h.bat**
 Haga doble clic en el archivo .bat y se descomprimirá la siguiente estructura a continuación:
 
