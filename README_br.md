@@ -1,3 +1,7 @@
+
+<details>
+<summary><b>▶ CW</b></summary>
+
 ✨ **CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br>
 <img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
 
@@ -71,6 +75,8 @@ Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**
 ▫️Apenas solicita-se manter os créditos de autoria.<br>
 ▫️Críticas, elogios, sugestões ou relatos de bugs são bem-vindos.<br>
 ▫️Utilize o formulário “Entre em contato” no site mattlab.com.br.<br><br>
+
+</details>
 
 📋 **Versionamento**<br>
 |Versão	|Data	| Descrição |
