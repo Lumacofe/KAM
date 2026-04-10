@@ -67,8 +67,8 @@ Exemplo de arquivo	: **Pontos Cardeais.txt**<br>
 
 | Arqvuivo txt  | Nome                                               |
 |---------------|----------------------------------------------------|
-| Exemplo 1️⃣    | [Continentes.txt](lib/txt/Continentes.txt)         |
-| Exemplo 2️⃣    | [Planetas.txt](lib/txt/Planetas.txt)               |
+| Exemplo 1️⃣    | [Continentes.txt](lib/txt/Continentes.txt)        |
+| Exemplo 2️⃣    | [Planetas.txt](lib/txt/Planetas.txt)              |
 | Exemplo 3️⃣    | [Pontos Cardeais.txt](lib/txt/PontosCardeais.txt) |
 
 ⚙️ **Funcionalidades**<br>
