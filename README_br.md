@@ -1,5 +1,5 @@
 <details>
-<summary><b>**✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br></b></summary>
+<summary><b>✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas<br></b></summary>
 
 <img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
 
