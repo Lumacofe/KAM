@@ -1,0 +1,6 @@
+AMÉRICA:Continente batizado em homenagem ao italiano Américo Vespúcio
+ÁFRICA:Continente com maior variedade de fauna de grande porte
+EUROPA:Continente chamado de Velho Mundo
+ÁSIA:Continente mais populoso da Terra
+OCEANIA:Continente ondem vivem os Aborígenes e cangurus
+ANTÁRTIDA:Continente gelado que fica no Polo Sul

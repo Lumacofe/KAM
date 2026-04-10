@@ -1,0 +1,78 @@
+✨ **CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas**<br>
+<img src="lib/jpg/logo.jpg" width="300"><br>
+
+Após clicar no botão **Download .ZIP**, o seguinte arquivo estará no diretório de downloads: **Install_KAM_v0.00h.bat**
+Clique 2X no arquivo .bat e será descompactada a seguinte estrutura abaixo:
+
+⚪**Estrutura de Diretórios**<br>
+* C:\KAM\
+    * lib
+        * ini
+        * png
+        * txt
+        * ...
+    * **KAM_0.00h.xlsm**
+
+🎯 **Objetivo**<br><br>
+O módulo CW tem como finalidade construir palavras cruzadas para:<br>
+👉🏻Uso Lúdico<br>
+👉🏻Uso Educacional<br>
+👉🏻Exercícios Terapêuticos para pacientes com perda de memória<br><br>
+
+🧩 **Características do Módulo**
+| Item                              | Valor        |
+|-----------------------------------|--------------|
+| Versão atual                      | 0.01         |
+| Data                              | 2026.APR.02  |
+| Desenvolvedor                     | lumacofe     |
+| Extensão do arquivo de entrada    | .txt         |
+| Número mínimo de palavras         | 2            |
+| Número máximo de palavras         | 100          |
+| Separador de colunas              | :            |
+| Número de colunas                 | 2            |
+
+Exemplo de arquivo	: **Pontos Cardeais.txt**<br>
+
+📄 **Exemplo de conteúdo do arquivo**
+
+NORTE:Polo onde se localiza o Ártico<br>
+SUL:Polo onde se localiza a Antártida<br>
+LESTE:Ponto cardeal onde o sol nasce primeiro<br>
+OESTE:Ponto cardeal onde o sol se põe mais tarde<br>
+NORDESTE:Ponto cardeal entre o leste e o norte<br>
+NOROESTE:Ponto cardeal entre o norte e o oeste<br>
+SUDOESTE:Ponto cardeal entre o oeste e o sul<br>
+SUDESTE:Ponto cardeal entre o sul e o leste<br>
+
+⚙️ **Funcionalidades**<br>
+Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**<br><br> 
+<img src="lib/jpg/menu.jpg" width="200"><br>
+
+| Função       | Descrição |
+|--------------|-----------|
+| **File Import**  | Abre a interface para selecionar o arquivo `.txt`. |
+| **Gen CW**       | Gera a cruzadinha (Cross Word). |
+| **Gen PDF**      | Cria dois arquivos PDF (Sem os rótulos de linhas e colunas da imagem):<br>🅰️ Um com o gabarito<br>🅱️ Outro com a cruzadinha sem respostas |
+| **About**        |  Exibe a versão do KAM, seu tamanho e link para o site mattlab.|<br>
+
+**Arquivo PDF** 🅰️ (Gabarito)<br>
+<img src="lib/jpg/gabarito.jpg" width="700"><br>
+**Arquivo PDF** 🅱️ (Cruzadinha)<br>
+<img src="lib/jpg/cruzadinha.jpg" width="700"><br>
+
+📢 **Observações**<br>
+1️⃣O algoritmo organiza as palavras da maior para a menor, facilitando a construção da estrutura CW.<br>
+2️⃣Listas muito curtas podem gerar erros, pois existe uma regra que impede palavras de ficarem coladas vertical ou horizontalmente.<br>
+3️⃣A numeração das palavras é inserida automaticamente pela macro, seguindo a regra 1️⃣.<br><br>
+
+💡 **Considerações Finais**<br>
+▫️O código é Open Source, desenvolvido em VBA para Excel.<br>
+▫️Código comentado e aberto para edição, alteração e distribuição sem fins comerciais.<br>
+▫️Apenas solicita-se manter os créditos de autoria.<br>
+▫️Críticas, elogios, sugestões ou relatos de bugs são bem-vindos.<br>
+▫️Utilize o formulário “Entre em contato” no site mattlab.com.br.<br><br>
+
+📋 **Versionamento**<br>
+|Versão	|Data	| Descrição |
+|-------|-----|-----------|
+|0.01	|2026.APR.02	|Implementação inicial, Beta Test|

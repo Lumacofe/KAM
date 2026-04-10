@@ -1,0 +1,8 @@
+SUL:Polo onde se localiza a Antártida
+NORTE:Polo onde se localiza o Ártico
+LESTE:Ponto cardeal onde o sol nasce primeiro
+OESTE:Ponto cardeal onde o sol se põe mais tarde
+SUDESTE:Ponto cardeal entre o sul e o leste
+NORDESTE:Ponto cardeal entre o leste e o norte
+NOROESTE:Ponto cardeal entre o norte e o oeste
+SUDOESTE:Ponto cardeal entre o oeste e o sul

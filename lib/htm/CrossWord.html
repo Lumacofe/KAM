@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>CrossWord – Download</title> <style>
+        /* OCULTA ELEMENTOS QUE POSSAM VIR DE OUTROS TEMPLATES */
+        header, nav, .menu, .main-menu, #menu, .navbar {
+            display: none !important;                                     /* Esconde menus e barras de navegação externas */
+        }
+
+        /* CONFIGURAÇÕES GERAIS DO CORPO DA PÁGINA */
+        body {
+            background: linear-gradient(135deg, #e3e9ff, #f7f7f7);        /* Define um fundo com degradê suave */
+            font-family: "Segoe UI", Arial, sans-serif;                   /* Define a fonte padrão da página */
+            display: flex;                                                /* Ativa o flexbox para alinhamento */
+            flex-direction: column;                                       /* Organiza os elementos internos em coluna */
+            justify-content: center;                                      /* Centraliza o conteúdo verticalmente */
+            align-items: center;                                          /* Centraliza o conteúdo horizontalmente */
+            height: 100vh;                                                /* Faz a página ocupar 100% da altura da tela */
+            margin: 0;                                                    /* Remove margens padrões do navegador */
+            font-size: 20px;                                              /* Define um tamanho de fonte base */
+        }
+
+        /* CONFIGURAÇÃO DO CARD (O BLOCO RETANGULAR BRANCO) */
+        .card {
+            width: 360px;                                                 /* Define a largura fixa do bloco */
+            background: #ffffffee;                                        /* Cor branca com opacidade quase total */
+            backdrop-filter: blur(4px);                                   /* Aplica um leve desfoque ao que estiver atrás do bloco */
+            border-radius: 14px;                                          /* Arredonda os cantos do bloco */
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);                      /* Adiciona uma sombra suave ao redor */
+            padding: 22px 26px;                                           /* Define o espaçamento interno do bloco */
+            text-align: center;                                           /* Centraliza todo o texto dentro do bloco */
+            transform: translateX(0.5cm);                                 /* MOVE O BLOCO EXATAMENTE 0.5CM PARA A DIREITA */
+        }
+
+        /* ÁREA DA LOGOMARCA E TÍTULO */
+        .logo-area {
+            display: flex;                                                /* Alinha logo e texto na mesma linha */
+            align-items: center;                                          /* Centraliza verticalmente a logo com o texto */
+            justify-content: center;                                      /* Centraliza o conjunto na horizontal */
+            gap: 12px;                                                    /* Define o espaço entre a imagem e o texto */
+            margin-bottom: 10px;                                          /* Adiciona um espaço abaixo da logomarca */
+        }
+
+        .logo {
+            width: 110px;                                                 /* Define a largura da imagem da logo */
+            border-radius: 10px;                                          /* Arredonda levemente os cantos da imagem da logo */
+        }
+
+        .logo-text {
+            font-size: 22px;                                              /* Define o tamanho do texto da logo */
+            font-weight: 700;                                             /* Deixa o texto em negrito */
+            color: #333;                                                  /* Define a cor do texto como cinza escuro */
+            letter-spacing: 1px;                                          /* Aumenta o espaço entre as letras */
+            white-space: nowrap;                                          /* Garante que o texto não quebre em duas linhas */
+        }
+
+        /* CONFIGURAÇÃO DA TABELA DE INFORMAÇÕES */
+        table {
+            width: 100%;                                                  /* Faz a tabela ocupar toda a largura do card */
+            border-collapse: collapse;                                    /* Remove espaços extras entre as bordas da tabela */
+            margin-top: 10px;                                             /* Adiciona um espaço acima da tabela */
+        }
+
+        td {
+            padding: 6px 2px;                                             /* Define o espaçamento interno das células da tabela */
+            border: none !important;                                      /* Garante que não apareçam linhas de borda */
+            font-size: 18px;                                              /* Define o tamanho da fonte dos dados */
+        }
+
+        /* ESTILO DA PRIMEIRA COLUNA (RÓTULOS) */
+        td:first-child {
+            font-weight: 600;                                             /* Deixa os títulos em negrito suave */
+            color: #444;                                                  /* Define a cor cinza para os rótulos */
+            width: 130px;                                                 /* Define uma largura fixa para alinhar os campos */
+            text-align: left;                                             /* Alinha o texto dos rótulos à esquerda */
+        }
+
+        /* ESTILO DA SEGUNDA COLUNA (CONTEÚDO) */
+        td:last-child {
+            text-align: right;                                            /* Alinha os valores e botões à direita */
+        }
+
+        /* ESTILO DO BOTÃO DE DOWNLOAD */
+        .download-btn {
+            display: inline-block;                                        /* Permite configurar altura e largura interna */
+            padding: 10px 14px;                                           /* Define o tamanho interno do botão */
+            background: #4f46e5;                                          /* Define a cor azul do botão */
+            color: white;                                                 /* Define a cor do texto do botão como branco */
+            text-decoration: none;                                        /* Remove o sublinhado padrão de links */
+            border-radius: 8px;                                           /* Arredonda as bordas do botão */
+            font-size: 18px;                                              /* Define o tamanho da fonte do botão */
+            font-weight: 300;                                             /* Define a espessura da fonte como mais fina */
+            transition: 0.5s;                                             /* Suaviza a animação de transição ao passar o mouse */
+        }
+
+        /* EFEITO AO PASSAR O MOUSE NO BOTÃO */
+        .download-btn:hover {
+            background: #3b36c9;                                          /* Escurece a cor do botão no hover */
+            transform: translateY(-2px);                                  /* Faz o botão subir levemente no hover */
+        }
+
+        /* ESTILO DOS LINKS DAS BANDEIRAS */
+        .flag-link {
+            text-decoration: none !important;                             /* Garante a remoção de sublinhados entre as imagens */
+        }
+
+        td img {
+            width: 32px;                                                  /* Define o tamanho das imagens das bandeiras */
+            margin-left: 6px;                                             /* Cria um pequeno espaço entre as bandeiras */
+            cursor: pointer;                                              /* Altera o cursor para a mãozinha de link */
+            vertical-align: middle;                                       /* Alinha a bandeira verticalmente ao centro */
+            transition: 0.5s;                                             /* Suaviza o efeito de hover na imagem */
+        }
+
+        /* EFEITO AO PASSAR O MOUSE NAS BANDEIRAS */
+        td img:hover {
+            transform: translateY(-2px);                                  /* Faz a bandeira subir levemente ao passar o mouse */
+            filter: brightness(0.85);                                     /* Reduz levemente o brilho da imagem no hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card"> <div class="logo-area"> <img class="logo" src="https://lumacofe1.websiteseguro.com/cw100.png" alt="Logo CrossWord"> <div class="logo-text">[C]ROSS [W]ORD</div> </div>
+
+        <table> <tr>
+                <td>Project:</td> <td>CrossWord</td> </tr>
+            <tr>
+                <td>Version:</td> <td>0.01</td> </tr>
+            <tr>
+                <td>Download:</td> <td>
+                    <a class="download-btn" href="https://github.com/Lumacofe/CrossWord/archive/refs/heads/master.zip">
+                        ⬇ Baixar ZIP
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Instructions:</td> <td>
+                    <a class="flag-link" href="https://github.com/Lumacofe/CrossWord/blob/master/README_br.md" target="_blank"><img src="https://lumacofe1.websiteseguro.com/brFlag.png" alt="Brasil"></a><a class="flag-link" href="https://github.com/Lumacofe/CrossWord/blob/master/README_us.md" target="_blank"><img src="https://lumacofe1.websiteseguro.com/usFlag.png" alt="Estados Unidos"></a><a class="flag-link" href="https://github.com/Lumacofe/CrossWord/blob/master/README_es.md" target="_blank"><img src="https://lumacofe1.websiteseguro.com/esFlag.png" alt="Espanha"></a>
+                </td>
+            </tr>
+        </table> </div> </body>
+</html>

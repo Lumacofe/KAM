@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>KAM Matrix</title>
+
+    <style>
+        /* Centralização Global */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            /* Flexbox para centralizar tudo na tela */
+            header, nav, .menu, .main-menu, #menu, .navbar 
+			{display: none !important; /* Esconde menus e barras de navegação externas */}
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center;     /* Centraliza verticalmente */
+            min-height: 100vh;       /* Garante que o corpo tenha a altura total da janela */
+        }
+
+        /* Contêiner que agrupa todo o conteúdo */
+        .main-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Garante que os itens internos fiquem alinhados ao centro */
+        }
+
+        /* Container do Cabeçalho (Título + Legendas) */
+        .header-container {
+            display: flex;
+            align-items: center;
+            gap: 30px; 
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #000;
+            font-weight: normal;
+        }
+
+        /* Estilo das Legendas */
+        .legend-container {
+            display: flex;
+            gap: 15px;
+        }
+
+        .legend-item {
+            padding: 6px 15px;
+            font-size: 14px;
+            border-radius: 2px;
+        }
+
+        .functions-label { background-color: #ffffcc; }
+        .subroutines-label { background-color: #c2f0c2; }
+
+        /* Estilo da Tabela */
+        table {
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0;
+            text-align: center;
+            width: 20px;
+            height: 20px;
+        }
+
+        th {
+            background: #f8f8f8;
+            font-size: 9px;
+            color: #333;
+            font-weight: normal;
+        }
+
+        button {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+            font-size: 8px;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        button.cw-highlight { background: #c2f0c2 !important; }
+        button.hf-highlight { background: #ffffcc !important; }
+
+        /* Tooltips */
+        .tooltip-balao {
+            position: fixed;
+            background: #ffeb3b;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+            display: none;
+            z-index: 999;
+            pointer-events: none;
+        }
+
+        /* Modal */
+        #modal-bg {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        #modal {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <div class="header-container">
+            <h2>KAM Matrix</h2>
+            
+            <div class="legend-container">
+                <div class="legend-item functions-label">functions</div>
+                <div class="legend-item subroutines-label">subroutines</div>
+            </div>
+        </div>
+
+        <table id="matriz"></table>
+    </div>
+
+    <div id="cw-tooltip" class="tooltip-balao">[C]ross [W]ord : Versão 0.01</div>
+    <div id="hf-tooltip" class="tooltip-balao">[H]eader [F]ooter : Version 0.01</div>
+
+    <div id="modal-bg">
+        <div id="modal">
+            <h3>Formulário</h3>
+            <label>Valor selecionado:</label>
+            <input type="text" id="campoValor" readonly style="width:100%; margin: 10px 0; padding: 5px; text-align: center;">
+            <br>
+            <button onclick="fecharModal()" style="width: auto; padding: 8px 20px; background: #4f46e5; color: white; border: none; border-radius: 4px; cursor: pointer;">Fechar</button>
+        </div>
+    </div>
+
+    <script>
+        const tabela = document.getElementById("matriz");
+        const letras = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+        const tooltipCW = document.getElementById("cw-tooltip");
+        const tooltipHF = document.getElementById("hf-tooltip");
+
+        // Gerar Header
+        let header = "<tr><th></th>";
+        letras.forEach(l => header += `<th>${l}</th>`);
+        header += "</tr>";
+        tabela.innerHTML += header;
+
+        // Gerar Linhas
+        letras.forEach(linha => {
+            let row = `<tr><th>${linha}</th>`;
+            letras.forEach(coluna => {
+                const valor = linha + coluna;
+                const isCW = (valor === "CW");
+                const isHF = (valor === "HF");
+                let classe = isCW ? "cw-highlight" : (isHF ? "hf-highlight" : "");
+
+                row += `<td><button class="${classe}" id="${valor}" onclick="gerenciarClique('${valor}')">${valor}</button></td>`;
+            });
+            row += "</tr>";
+            tabela.innerHTML += row;
+        });
+
+        function gerenciarClique(valor) {
+            if (valor === "CW") window.location.href = "https://mattlab.com.br/crossword";
+            else if (valor === "HF") window.location.href = "/header-footer";
+            else abrirModal(valor);
+        }
+
+        function abrirModal(valor) {
+            document.getElementById("campoValor").value = valor;
+            document.getElementById("modal-bg").style.display = "flex";
+        }
+
+        function fecharModal() {
+            document.getElementById("modal-bg").style.display = "none";
+        }
+
+        function setupTooltip(id, element) {
+            const btn = document.getElementById(id);
+            if (btn) {
+                btn.addEventListener("mouseenter", () => element.style.display = "block");
+                btn.addEventListener("mouseleave", () => element.style.display = "none");
+                btn.addEventListener("mousemove", (e) => {
+                    element.style.left = e.clientX + 15 + "px";
+                    element.style.top = e.clientY + 15 + "px";
+                });
+            }
+        }
+
+        setupTooltip("CW", tooltipCW);
+        setupTooltip("HF", tooltipHF);
+    </script>
+
+</body>
+</html>
