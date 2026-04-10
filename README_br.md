@@ -61,8 +61,6 @@ O módulo CW tem como finalidade construir palavras cruzadas para:<br>
 | Separador de colunas              | :            |
 | Número de colunas                 | 2            |
 
-Exemplo de arquivo	: **Pontos Cardeais.txt**<br>
-
 📄 Exemplos de arquivos texto para uso no **CrossWord**
 
 | Arqvuivo txt  | Nome                                               |
