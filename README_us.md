@@ -1,5 +1,5 @@
 ✨ **CW — [C]ross [W]ord: Module for generating crossword puzzles**  
-<img src="lib/jpg/logo.jpg" width="300"><br>
+<img src="lib/jpg/kam_0.00h.jpg" width="300"><br>
 After clicking the **Download .ZIP** button, the following file will be in your downloads folder: **Install_KAM_v0.00h.bat**
 
 Double-click the .bat file to extract the directory structure shown below:
