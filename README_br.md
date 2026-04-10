@@ -1,5 +1,5 @@
 <details>
-<summary><b>✨KAM — [K]ernel [A]nalytics [M]achine : Suite de ferramentas KAM<br></b></summary><br>
+<summary><b>✨KAM — [K]ernel [A]nalytics [M]achine : Suíte de ferramentas KAM<br></b></summary><br>
 
    💡**KAM Matrix** : É a concatenação de linhas (de A a Z) e colunas (de A a Z).
    * As posições em **amarelo** são funções estruturais facilitadoras.
