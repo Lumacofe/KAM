@@ -69,7 +69,7 @@ Exemplo de arquivo	: **Pontos Cardeais.txt**<br>
 |---------------|----------------------------------------------------|
 | Exemplo 1️⃣    | [Continentes.txt](lib/txt/Continentes.txt)         |
 | Exemplo 2️⃣    | [Planetas.txt](lib/txt/Planetas.txt)               |
-| Exemplo 3️⃣    | [Pontos Cardeais.txt](lib/txt/Pontos Cardeais.txt) |
+| Exemplo 3️⃣    | [Pontos Cardeais.txt](lib/txt/PontosCardeais.txt) |
 
 ⚙️ **Funcionalidades**<br>
 Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**<br><br> 
