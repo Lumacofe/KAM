@@ -75,9 +75,9 @@ Abaixo a barra de Menus **KAM** que é aberta no Excel ao abrir **CW_0.01.xlsm**
 ▫️Críticas, elogios, sugestões ou relatos de bugs são bem-vindos.<br>
 ▫️Utilize o formulário “Entre em contato” no site mattlab.com.br.<br><br>
 
-</details>
-
 📋 **Versionamento**<br>
 |Versão	|Data	| Descrição |
 |-------|-----|-----------|
 |0.00h	|2026.APR.02	|Implementação inicial, Beta Test|
+
+</details>
