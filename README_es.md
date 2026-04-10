@@ -63,11 +63,11 @@ El módulo CW tiene como finalidad construir crucigramas para:<br>
 
 📄 Ejemplos de archivos de texto para usar en **CrossWord**
 
-| Archivo txt   | Nombre                                              |
-|---------------|------------------------------------------------------|
-| Ejemplo 1️⃣    | [Continentes.txt](lib/txt/Continentes.txt)          |
-| Ejemplo 2️⃣    | [Planetas.txt](lib/txt/Planetas.txt)                |
-| Ejemplo 3️⃣    | [Puntos Cardinales.txt](lib/txt/PontosCardeais.txt) |
+| Archivo txt   | Nombre                                                |
+|---------------|-------------------------------------------------------|
+| Ejemplo 1️⃣    | [Continentes.txt](lib/txt/ContinentesES.txt)          |
+| Ejemplo 2️⃣    | [Planetas.txt](lib/txt/PlanetasES.txt)                |
+| Ejemplo 3️⃣    | [Puntos Cardinales.txt](lib/txt/PuntosCardinales.txt) |
 
 ⚙️ **Funcionalidades**<br>
 A continuación, la barra de menús **KAM** que se abre en Excel al cargar **CW_0.01.xlsm**<br><br>
