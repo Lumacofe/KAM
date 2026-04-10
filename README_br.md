@@ -7,6 +7,8 @@
    * As posições em **cinza** são funcionalidades futuras
    * Ao clicar nestas posições ocorre o direcionamento para a área de download
 
+   <img src="lib/jpg/matrix.jpg" width="800"><br>
+
    📋 **Versionamento**<br>
    |Versão	|Data	| Descrição |
    |-------|-----|-----------|
