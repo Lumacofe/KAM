@@ -2,10 +2,10 @@
 <summary><b>✨KAM — [K]ernel [A]nalytics [M]achine : Suite de ferramentas KAM<br></b></summary><br>
 
    💡**KAM Matrix** : É a concatenação de linhas (de A a Z) e colunas (de A a Z).
-   * As posições em **amarelo** são funções
-   * As posições em **verde** são módulos de subrotinas
-   * As posições em **cinza** são funcionalidades futuras
-   * Ao clicar nestas posições ocorre o direcionamento para a área de download
+   * As posições em **amarelo** são funções estruturais facilitadoras.
+   * As posições em **verde** são módulos de subrotinas implementadas completas.
+   * As posições em **cinza** são funcionalidades futuras.
+   * Ao clicar nestas posições ocorre o direcionamento para a área de download.
 
    <img src="lib/jpg/matrix.jpg" width="600"><br>
 
