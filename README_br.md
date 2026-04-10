@@ -6,10 +6,6 @@
    * As posições em **verde** são módulos de subrotinas
    * As posições em **cinza** são funcionalidades futuras
    * Ao clicar nestas posições ocorre o direcionamento para a área de download
-   
-<div style="background:#eee; padding:10px; border-radius:6px;">
-Esta é uma caixa cinza no Markdown.
-</div>
 
    📋 **Versionamento**<br>
    |Versão	|Data	| Descrição |
@@ -24,9 +20,6 @@ Esta é uma caixa cinza no Markdown.
    |0.00a	|30/01/2025	|Concepção das ideias|
 
 </details>
-
-<span style="color: gray;">Esta linha ficará cinza.</span>
-
 
 <details>
 <summary><b>✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas<br></b></summary>
