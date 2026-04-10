@@ -21,6 +21,8 @@
 
 </details>
 
+<span style="font-weight:200;">Fonte super fina.</span>
+
 <details>
 <summary><b>✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas<br></b></summary>
 
