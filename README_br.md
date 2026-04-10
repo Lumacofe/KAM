@@ -23,6 +23,9 @@
 
 </details>
 
+<span style="color: gray;">Esta linha ficará cinza.</span>
+
+
 <details>
 <summary><b>✨CW — [C]ross [W]ord : Módulo para geração de palavras cruzadas<br></b></summary>
 
